@@ -35,7 +35,7 @@
                 </label>
                 <label for="desc">
                     Opis: <br>
-                    <textarea name="" id="desc" cols="30" rows="10" class="recipe-format"></textarea>
+                    <textarea name="" id="desc" cols="30" rows="10" class="recipe-format"></textarea> <br>
                 </label>
                 <button class="recipe-format add-button">Dodaj przepis</button>
             </div>
@@ -69,7 +69,8 @@
 }
 .add-top{
     text-align: left;
-    width: 270px;
+    width: fit-content;
+    min-width: 270px;
     margin: 0px auto 0px auto;
 }
 .add-recipe-container{
@@ -77,8 +78,10 @@
     border: 3px black dotted;
     border-radius: 20px;
     flex-direction: column;
-    height: 450px;
-    width: 500px;
+    min-height: 450px;
+    height: fit-content;
+    min-width: 500px;
+    width: fit-content;
     padding: 10px;
     margin: 0px auto 0px auto;
 }
